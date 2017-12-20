@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "name": "流量分析",
+      "path": "analyse"
+    },
+    {
+      "name": "数据预测",
+      "path": "forecast"
+    },
+    {
+      "name": "数据统计",
+      "path": "count"
+    },
+    {
+      "name": "广告发布",
+      "path": "publish"
+    }
+  ],
+  "imgMap": {
+    "/detail/count": "/static/images/sign/1.png",
+    "/detail/forecast": "/static/images/sign/2.png",
+    "/detail/analyse": "/static/images/sign/3.png",
+    "/detail/publish": "/static/images/sign/4.png"
+  }
+}

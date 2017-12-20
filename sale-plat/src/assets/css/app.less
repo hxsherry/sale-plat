@@ -1,0 +1,156 @@
+@import "variable.less";
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  background: #4fc08d;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+//登录框
+.login-form {
+  padding: 15px;
+  font-size: @font-title;
+  font-weight: bold;
+  .login-line {
+    padding: 15px;
+    input {
+      height: 30px;
+      width: 200px;
+      line-height: 30px;
+      vertical-align: middle;
+      padding: 0 10px;
+      border: 1px solid #ccc;
+    }
+  }
+  .form-error {
+    color: red;
+    padding-left: 15px;
+  }
+}
+
+//sales 右边展示页
+.sales-board {
+  background: #fff;
+  .sales-board-intro {
+    h2 {
+      font-size: 20px;
+      padding: 20px;
+    }
+    p {
+      background: #f7fcff;
+      padding: 10px 20px;
+      color: #999;
+      line-height: 1.8;
+    }
+  }
+  .sales-board-form {
+    padding: 30px 20px;
+    font-size: 14px;
+    .sales-board-line {
+      clear: both;
+      padding-bottom: 20px;
+      .sales-board-line-left {
+        display: inline-block;
+        width: 100px;
+      }
+      .sales-board-line-right {
+        display: inline-block;
+        width: 75%;
+      }
+
+    }
+
+  }
+  .sales-board-des {
+    border-top: 20px solid #f0f2f5;
+    padding: 15px 20px;
+    h2 {
+      font-size: 20px;
+      padding-bottom: 15px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      padding: 20px 0 10px 0;
+    }
+    li {
+      padding: 5px 0;
+    }
+    table {
+      text-align: center;
+      border: 1px solid @border;
+    }
+    td {
+      border: 1px solid @border;
+    }
+
+  }
+}
+
+//单选和多选样式
+.chooser-list {
+  li {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #e3e3e3;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    margin-right: 5px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .active {
+    border-color: @titleColor;
+    background: @titleColor;
+    color: @white;
+  }
+}
+
+//购买表格样式
+.buy-dialog-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buy-dialog-btn {
+  margin-top: 20px;
+}
+
+.buy-dialog-table {
+  width: 100%;
+  margin-bottom: 20px;
+  td, th {
+    border: 1px solid @border;
+    text-align: center;
+    padding: 5px 0;
+  }
+  th {
+    background: @titleColor;
+    color: @white;
+    border: 1px solid @titleColor;
+  }
+}
+
+

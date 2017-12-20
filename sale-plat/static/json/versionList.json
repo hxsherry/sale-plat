@@ -1,0 +1,22 @@
+[
+  {
+    "label": "纸质报告",
+    "value": 0,
+    "selected": false
+  },
+  {
+    "label": "pdf",
+    "value": 1,
+    "selected": false
+  },
+  {
+    "label": "页面报告",
+    "value": 2,
+    "selected": false
+  },
+  {
+    "label": "邮件",
+    "value": 3,
+    "selected": false
+  }
+]

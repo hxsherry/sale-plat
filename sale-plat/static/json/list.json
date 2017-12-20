@@ -1,0 +1,141 @@
+{
+  "all": {
+    "pc": {
+      "title": "PC端产品",
+      "list": [
+        {
+          "name": "流量分析",
+          "url": "detail/analyse"
+        },
+        {
+          "name": "数据预测",
+          "url": "detail/forecast"
+        },
+        {
+          "name": "数据统计",
+          "url": "detail/count",
+          " hot": true
+        },
+        {
+          "name": "广告发布",
+          "url": "detail/publish"
+        }
+      ]
+    },
+    " mobile": {
+      "title": "手机应用类",
+      "last": true,
+      "list": [
+        {
+          "name": "91助手",
+          "url": "https://www.baidu.com"
+        },
+        {
+          "name": "产品助手",
+          "url": "https://www.baidu.com",
+          "hot": true
+        },
+        {
+          "name": "智能地图",
+          "url": "https://www.baidu.com"
+        },
+        {
+          "name": "团队语音",
+          "url": "https://www.baidu.com"
+        }
+      ]
+    }
+  },
+  "news": [
+    {
+      "name": "断了的弦",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "浮夸爱情",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "曾经的你曾经的你曾经的你曾经的你曾经的你曾经的你",
+      "url": "https://www.baidu.com",
+      "hot": true
+    },
+    {
+      "name": "仗剑走天1",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "仗剑走天2",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "仗剑走天3",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "仗剑走天4",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "浮夸爱情1",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "name": "浮夸爱情2浮夸爱情2浮夸爱情2浮夸爱情2",
+      "url": "https://www.baidu.com"
+    }
+  ],
+  "desc": [
+    {
+      "title": "开放产品",
+      "description": "开放产品是一款供大众使用的产品",
+      "id": "car",
+      "toKey": "analyse",
+      "bg": "/static/images/sign/1.png"
+    },
+    {
+      "title": "品牌营销",
+      "description": "品牌营销帮助你的产品更好地找到定位",
+      "id": "earth",
+      "toKey": "forecast",
+      "bg": "/static/images/sign/2.png"
+    },
+    {
+      "title": "使命必达",
+      "description": "使命必达快速迭代永远保持最前端的速度",
+      "id": "loud",
+      "toKey": "count",
+      "bg": "/static/images/sign/3.png"
+    },
+    {
+      "title": "勇攀高峰",
+      "description": "帮你勇闯高峰，到达事业的顶峰",
+      "id": "hill",
+      "toKey": "publish",
+      "bg": "/static/images/sign/4.png"
+    }
+  ],
+  "slides": [
+    {
+      "src": "/static/images/slideShow/pic1.jpg",
+      "title": "xxx1",
+      "href": "detail/count"
+    },
+    {
+      "src": "/static/images/slideShow/pic2.jpg",
+      "title": "xxx2",
+      "href": "detail/forecast"
+    },
+    {
+      "src": "/static/images/slideShow/pic3.jpg",
+      "title": "xxx3",
+      "href": "detail/analyse"
+    },
+    {
+      "src": "/static/images/slideShow/pic4.jpg",
+      "title": "xxx4",
+      "href": "detail/publish"
+    }
+  ]
+}
+
